@@ -1,0 +1,9 @@
+{
+  "name" : "potionsickness",
+  "effectConfig" : {},
+  "defaultDuration" : 15,
+
+
+  "label" : "Can't Heal",
+  "icon" : "/interface/statuses/potionsickness.png"
+}

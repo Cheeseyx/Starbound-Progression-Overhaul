@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidair",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "liquidwatericon.png",
+  "shortdescription" : "Air",
+  "description" : "A bit of breathable air",
+
+  "liquid" : "air"
+}

@@ -1,0 +1,12 @@
+[
+	{
+		"op": "replace",
+		"path": "/projectileParameters",
+		"value": { "speed": 100, "timeToLive": 0.025}
+	},
+	{
+		"op": "replace",
+		"path": "/reelOutLength",
+		"value": 20
+	}
+]

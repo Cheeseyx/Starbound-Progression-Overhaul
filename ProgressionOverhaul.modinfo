@@ -1,0 +1,11 @@
+{
+  "name" : "ProgressionOverhaul",
+  "version" : "Initial",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata" : {
+    "author" : "Cheeseyx",
+    "version" : "0.1",
+    "description" : "An overhaul to Starbound Progression"
+  }
+}

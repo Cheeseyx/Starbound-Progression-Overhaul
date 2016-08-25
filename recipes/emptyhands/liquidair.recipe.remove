@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "liquidair",
+    "count" : 100
+  },
+  "groups" : [ "plain", "objects", "all", "tools" ]
+}

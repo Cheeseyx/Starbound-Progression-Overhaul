@@ -1,0 +1,33 @@
+{
+  "name" : "flippers",
+  
+  "effectConfig" : {
+    "applyToTypes" : ["player"],
+    "movementParameters" : {
+      "liquidImpedance" : 0.1,
+      "liquidForce" : 9000,
+      "liquidBuoyancy" : 0.75,
+      "liquidFriction" : 5.0,
+      "liquidJumpProfile" : {
+        "jumpSpeed" : 30.0,
+        "jumpControlForce" : 400.0,
+        "jumpInitialPercentage" : 0.75,
+        "jumpHoldTime" : 0.25,
+
+        "multiJump" : true,
+        "reJumpDelay" : 0.25,
+        "autoJump" : true,
+        "collisionCancelled" : false
+      }
+    }
+  },
+  "defaultDuration" : 0.5,
+
+  "scripts" : [
+    "flippers.lua"
+  ],
+
+  "label" : "Using flippers",
+  "icon" : "/interface/statuses/levitate.png"
+
+}

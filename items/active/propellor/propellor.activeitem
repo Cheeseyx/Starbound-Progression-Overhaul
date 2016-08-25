@@ -1,0 +1,17 @@
+{
+  "itemName" : "propellor",
+  "price" : 3000,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "tool",
+  "description" : "Finally, a convenient way to traverse the ocean.",
+  "shortdescription" : "Portable Propellor",
+  "tooltipKind" : "base",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "propellor.png",
+
+  "scripts" : ["propellor.lua"],
+  "scriptDelta" : 1
+
+}

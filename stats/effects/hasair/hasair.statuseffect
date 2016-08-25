@@ -1,0 +1,32 @@
+{
+  "name" : "hasair",
+  
+  "effectConfig" : {
+    "applyToTypes" : ["player"],
+    "movementParameters" : {
+      "liquidImpedance" : 0,
+      "liquidForce" : 20,
+      "liquidFriction" : 0,
+      "liquidJumpProfile" : {
+        "jumpSpeed" : 45.0,
+        "jumpControlForce" : 900.0,
+        "jumpInitialPercentage" : 1.0,
+        "jumpHoldTime" : 0,
+
+        "multiJump" : false,
+        "reJumpDelay" : 0.05,
+        "autoJump" : false,
+        "collisionCancelled" : true
+      }
+    }
+  },
+  "defaultDuration" : 0.5,
+
+  "scripts" : [
+    "hasair.lua"
+  ],
+
+  "label" : "Has air",
+  "icon" : "/interface/statuses/levitate.png"
+
+}

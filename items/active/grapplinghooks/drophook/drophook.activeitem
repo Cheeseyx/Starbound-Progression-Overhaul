@@ -1,0 +1,44 @@
+{
+  "itemName" : "drophook",
+  "price" : 3000,
+  "inventoryIcon" : "drophookicon.png",
+  "rarity" : "Legendary",
+  "maxStack" : 1,
+  "description" : "Oh my god, whee! This is so fun!",
+  "shortdescription" : "Drop Hook",
+  "largeImage" : "drophookbig.png",
+  "category" : "Tool",
+  "fireTime" : 0,
+  "twoHanded" : false,
+
+  "scripts" : ["/items/active/grapplinghooks/grapplinghook.lua"],
+  "animationScripts" : ["/items/active/grapplinghooks/grapplinghookanimation.lua"],
+
+  "animation" : "drophook.animation",
+
+  "fireOffset" : [0, 0.3],
+  "ropeOffset" : [-1.75, 0.3],
+  "ropeVisualOffset" : [0.75, 0.3],
+
+  "consumeOnUse" : false,
+
+  "projectileType" : "grapplehook",
+  "projectileParameters" : {
+    "speed" : 100,
+    "timeToLive" : 0.025
+  },
+
+  "ropeWidth" : 1.0,
+  "ropeColor" : [120, 80, 30, 255],
+
+  "reelInDistance" : 3.5,
+  "reelOutLength" : 20,
+  "breakLength" : 60,
+
+  "minSwingDistance" : 1.5,
+
+  "reelSpeed" : 10,
+  "controlForce" : 1000,
+
+  "groundLagTime" : 0.2
+}

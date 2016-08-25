@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "liquidair", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "liquidwater",
+    "count" : 100
+  },
+  "groups" : [ "plain", "objects", "all", "tools" ]
+}

@@ -1,0 +1,38 @@
+{
+  "objectName" : "airgenerator",
+  "colonyTags" : [],
+  "rarity" : "Rare",
+  "description" : "An air generator.",
+  "shortdescription" : "Air generator",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 1000,
+
+  "apexDescription" : "A gold looking jug.",
+  "avianDescription" : "A pretty ceremonial jug.",
+  "floranDescription" : "Pretty jug, maybe sssteals.",
+  "glitchDescription" : "Enamored. This appears to be a ceremonial jug of bulbous appearance.",
+  "humanDescription" : "This jug looks kind of funny, I wonder what its for?",
+  "hylotlDescription" : "A golden odd looking jug for special ceremonies.",
+  "novakidDescription" : "Wonder what this odd lookin' gold jug was used for?",
+
+  "inventoryIcon" : "icon.png",
+  "scripts" : [ "/objects/airgenerator/airgenerator.lua" ],
+  "scriptDelta" : 60,
+
+  "orientations" : [
+    {
+      "dualImage" : "airgenerator.png:<color>",
+
+      "imagePosition" : [-26, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+
+
+}

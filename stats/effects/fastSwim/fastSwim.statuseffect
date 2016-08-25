@@ -1,0 +1,33 @@
+{
+  "name" : "fastSwim",
+  
+  "effectConfig" : {
+    "applyToTypes" : ["player"],
+    "movementParameters" : {
+      "liquidImpedance" : 0,
+      "liquidForce" : 100,
+      "liquidBuoyancy" : 1,
+      "liquidFriction" : 2,
+      "liquidJumpProfile" : {
+        "jumpSpeed" : 30.0,
+        "jumpControlForce" : 400.0,
+        "jumpInitialPercentage" : 0.75,
+        "jumpHoldTime" : 0.25,
+
+        "multiJump" : true,
+        "reJumpDelay" : 0.25,
+        "autoJump" : true,
+        "collisionCancelled" : false
+      }
+    }
+  },
+  "defaultDuration" : 0.5,
+
+  "scripts" : [
+    "fastSwim.lua"
+  ],
+
+  "label" : "Using a portable propellor",
+  "icon" : "/interface/statuses/levitate.png"
+
+}
