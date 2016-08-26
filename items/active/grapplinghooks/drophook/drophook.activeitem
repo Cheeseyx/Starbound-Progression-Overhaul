@@ -4,7 +4,7 @@
   "inventoryIcon" : "drophookicon.png",
   "rarity" : "Legendary",
   "maxStack" : 1,
-  "description" : "Oh my god, whee! This is so fun!",
+  "description" : "A safe way to rappel down large pits.",
   "shortdescription" : "Drop Hook",
   "largeImage" : "drophookbig.png",
   "category" : "Tool",

@@ -3,15 +3,28 @@
   "price" : 3000,
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "category" : "tool",
+  "category" : "Tool",
   "description" : "Finally, a convenient way to traverse the ocean.",
   "shortdescription" : "Portable Propellor",
-  "tooltipKind" : "base",
+  "tooltipKind" : "tool",
   "twoHanded" : true,
 
+  "animation" : "propellor.animation",
+
   "inventoryIcon" : "propellor.png",
+  "image" : "propellor.png",
+  "largeImage" : "propellorbig.png",
+
+
+  "altAbilityType" : "flashlight",
+
+  "lightPosition" : [4, 0],
+  "lightColor" : [220, 220, 220],
+  "beamLevel" : 5,
+  "beamAmbience" : 0.4,
 
   "scripts" : ["propellor.lua"],
   "scriptDelta" : 1
+
 
 }

@@ -21,7 +21,7 @@
       }
     }
   },
-  "defaultDuration" : 0.5,
+  "defaultDuration" : 0.25,
 
   "scripts" : [
     "fastSwim.lua"
